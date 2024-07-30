@@ -1,11 +1,11 @@
 let container = document.querySelector('.container');
 let sources = ['xflower1.png','xflower2.png','xflower3.png','xflower4.png','xflower5.png','xflower6.png'];
 let texts = ['I will always love you <3',
-            'انتي احلي حاجة حصلتلي',   
-            'بحبك اوي يا اجمل و احلي بنت في الدنيا كلها',
-            'you are the sweetest gf ever',
+            'I am lucky to have you <3',   
+            'You are the best thing that ever happened to me <3',
+            'You are the sweetest person ever <3',
             'You will always be my favorite <3',
-            'بعشقك يحياتي و هفضل اعشقك دايما'
+            'I love you so much <3',
             ];
 let img = document.getElementById('img');
 let txt = document.querySelector('.txt');
@@ -20,3 +20,4 @@ container.addEventListener('click', () => {
         txt.textContent = texts[getRandInt(texts.length)];
     }
 });
+

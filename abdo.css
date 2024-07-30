@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 body{
-    background-color: #ff0080;
+    background-color: #e0378c;
 }
 .container {
     position: relative;
@@ -9,7 +9,7 @@ body{
     height: 350px;
     border: 1px solid #cc0a784e;
     font-family: "Cairo", sans-serif;
-    background-color: #f73fb7;
+    background-color: #f002a9;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -22,11 +22,12 @@ body{
     align-items: center;
     font-size: 40px;
     color: #540338;
-    background-color: #f73fb7;
+    background-color: #f002a9;
     transform-origin: left;
+    box-shadow: 0 0 3px rgba(80, 5, 76, 0.5);
     border: 1px solid rgba(255, 0, 0, 0.304);
     z-index: 2;
-    transition: transform 1s;
+    transition: transform 1.5s ;
 }
 .pageTwo {
     position: absolute;
@@ -39,7 +40,7 @@ body{
     font-size: 18px;
     transform: rotate(10deg);
     text-align: center;
-    background-color: #f54ec3;
+    background-color: #ff00b6;
     color: #891d63;
 }
 .pageOne{
@@ -50,9 +51,9 @@ body{
 }
 .txt{
     display: block;
+    width: 90%;
 }
 #img{
-    display: block;
     width: 100px;
     height: 100px;
 }
