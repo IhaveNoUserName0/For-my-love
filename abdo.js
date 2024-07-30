@@ -7,17 +7,17 @@ let texts = ['I will always love you <3',
             'You will always be my favorite <3',
             'I love you so much <3',
             ];
+let i = 0;
 let img = document.getElementById('img');
 let txt = document.querySelector('.txt');
 let page = document.getElementById('page');
-const getRandInt = (num) => {
-    return Math.floor(Math.random() * num);
-}
+
 container.addEventListener('click', () => {
     page.classList.toggle('flip');
     if(page.classList.contains('flip')){
-        img.src = sources[getRandInt(sources.length)];
-        txt.textContent = texts[getRandInt(texts.length)];
+        i++;
+        img.src = sources[i%sources.length];
+        txt.textContent = texts[i%texts.length];
     }
 });
 
